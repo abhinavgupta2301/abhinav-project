@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age,ageResult;
+    cout<<"Enter the age of person : ";
+    cin>>age;
+    switch(age)
+    {
+    case 0 ... 5 : ageResult=0;
+    cout<<"Score of person is : "<<ageResult<<endl;
+    break;
+    case 6 ... 12 : ageResult=1;
+    cout<<"Score of person is : "<<ageResult<<endl;
+    break;
+    case 13 ... 19 : ageResult=2;
+    cout<<"Score of person is : "<<ageResult<<endl;
+    break;
+    case 20 ... 50 : ageResult=3;
+    cout<<"Score of person is : "<<ageResult<<endl;
+    break;
+    case 51 ... 60 : ageResult=4;
+    cout<<"Score of person is : "<<ageResult<<endl;
+    break;
+    case 61 ... 101 : ageResult=5;
+    cout<<"Score of person is : "<<ageResult<<endl;
+    break;
+    default : ageResult=-1;
+    cout<<"Score of person is : "<<ageResult<<endl;
+    }
+    return 0;
+}
+
